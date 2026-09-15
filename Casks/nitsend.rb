@@ -1,9 +1,9 @@
 cask "nitsend" do
   arch arm: "aarch64", intel: "x64"
 
-  version "1.0.0"
-  sha256 arm:   "c475befc74a03e6b9169c3141da810545651aee8f3a2807b5e4a5cab8bbb1902",
-         intel: "51d658c8f30fa9c80d6c61a0e1bfc6eb6902f99a655e91a7464dbf3d458d56a3"
+  version "1.1.0"
+  sha256 arm:   "d4d09083066294ac95551b8edd8ba2f6356eeb7342282e2770bab34d191da58d",
+         intel: "1366d063acbb70b88c6c3cd5fdf818878e19b9fbb6be45e72c7193ae4c1c170a"
 
   url "https://github.com/Hassion-Studio/nitsend-releases/releases/download/v#{version}/Nitsend_#{version}_#{arch}.dmg",
       verified: "github.com/Hassion-Studio/nitsend-releases/"
